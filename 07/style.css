@@ -1,0 +1,41 @@
+q::before {
+    content: "«" !important;
+}
+q::after {
+    content: "»" !important;
+}
+body {
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #1a1a1a;
+    color: #ff80ea;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+.name {
+    font-weight: bold;
+    font-style: italic;
+    color: #47ff37;
+}
+.img-left {
+    float: left;
+    width: 180px;
+    margin: 0 15px 10px 0;
+    border: 2px solid #47ff37;
+    border-radius: 6px;
+}
+.img-right {
+    float: right;
+    width: 180px;
+    margin: 0 0 10px 15px;
+    border: 2px solid #ff80ea;
+    border-radius: 6px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

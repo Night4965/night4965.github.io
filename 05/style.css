@@ -1,0 +1,21 @@
+body {
+    background: rgb(212, 243, 255);
+    color: rgb(70, 156, 156);
+}
+h1 {
+    color: rgb(0, 156, 184);
+}
+h2 {
+    padding: 5px;
+    color: azure;
+    background-color: rgb(54, 109, 90);
+}
+p.formula, span.formula {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+p.definition {
+    border: 1px solid;
+    padding: 10px;
+}

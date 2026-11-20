@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("../images/bubbles-fantasia.gif");
+    color: chocolate;
+}
+#header {
+    height: 80px;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-top: 15px;
+}
+p {
+    margin: 5px;
+    text-indent: 20px;
+}
+#pogoda {
+    width: 150px;
+    margin-left: 10px;
+    float: left;
+}
+#photo {
+    width: 220px;
+    margin-left: 10px;
+    float: right;
+}
+#photo img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#content {
+    margin-left: 250px;
+    margin-right: 240px;
+}
+#footer {
+    background-color: #CCCCCC;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    clear: both;
+}
